@@ -20,10 +20,14 @@ dependencies {
     // spring boot
     implementation("org.springframework.boot:spring-boot-starter-web")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
 
     // lombok
     annotationProcessor("org.projectlombok:lombok")
     compileOnly("org.projectlombok:lombok")
+
+    // thymeleaf
+    implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
 
     // test
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
