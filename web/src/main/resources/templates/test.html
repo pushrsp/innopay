@@ -12,7 +12,15 @@
     <script>
         function onClick() {
             innopay.goPay({
-                hi: "HI"
+                PayMethod: "CARD",
+                MID: "testpay01m",
+                MerchantKey: "Ma29gyAFhvv/+e4/AHpV6pISQIvSKziLIbrNoXPbRS5nfTx2DOs8OJve+NzwyoaQ8p9Uy1AN4S1I0Um5v7oNUg==",
+                GoodsName: "테스트 상품",
+                Amt: 1000,
+                BuyerName: "mn_홍길동",
+                BuyerTel: "01012341234",
+                BuyerEmail: "test@test.com",
+                Moid: "testpay01m01234567890"
             });
         }
     </script>
